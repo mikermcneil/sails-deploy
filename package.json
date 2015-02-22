@@ -1,0 +1,21 @@
+{
+  "name": "sails-deploy",
+  "version": "0.0.0",
+  "description": "Deploy a Sails app to any hosting provider with a compatible deployment strategy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "deploy",
+    "sails",
+    "sails.js",
+    "framework",
+    "azure",
+    "heroku",
+    "amazon",
+    "digital-ocean"
+  ],
+  "author": "",
+  "license": "MIT"
+}

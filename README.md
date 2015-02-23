@@ -27,10 +27,17 @@ You'll want to configure a compatible deployment strategy.
 
 ## Development
 
-Open the Node REPL and run:
+To fire this puppy up, open the Node REPL and run:
 
 ```js
 require('./')({config: {deploy: {module: 'sails-deploy-whatever'}}}, console.log)
+```
+
+
+To run the tests:
+
+```bash
+$ npm test
 ```
 
 

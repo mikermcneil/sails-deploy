@@ -16,7 +16,7 @@
     "amazon",
     "digital-ocean"
   ],
-  "author": "",
+  "author": "Mike McNeil",
   "license": "MIT",
   "dependencies": {
     "lodash": "^3.3.0"

@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha"
   },
+  "repository": {
+    "type":"git",
+    "url":"git@github.com:mikermcneil/sails-deploy.git"
+  },
   "keywords": [
     "deploy",
     "sails",

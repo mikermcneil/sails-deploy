@@ -1,14 +1,14 @@
 {
   "name": "sails-deploy",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Deploy a Sails app to any hosting provider with a compatible deployment strategy.",
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha"
   },
   "repository": {
-    "type":"git",
-    "url":"git@github.com:mikermcneil/sails-deploy.git"
+    "type": "git",
+    "url": "git@github.com:mikermcneil/sails-deploy.git"
   },
   "keywords": [
     "deploy",

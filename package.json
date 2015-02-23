@@ -17,5 +17,8 @@
     "digital-ocean"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.3.0"
+  }
 }

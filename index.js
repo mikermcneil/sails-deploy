@@ -26,7 +26,7 @@ module.exports = function sailsDeploy(inputs, cb) {
     // TODO: normalize and deterine the appropriate require path for the strategy
     // (if it's expressed as a relative path, resolve it from the appPath; ie inputs.config.appPath)
     var appPath = inputs.config.appPath||process.cwd();
-    var pathToStrategy = 'TODO';
+    var pathToStrategy = path.resolve(appPath, 'node_modules', inputs.config.deploy.module);
 
     // TODO: require the strategy code
     var strategy = require(pathToStrategy);
